@@ -3,8 +3,8 @@
 namespace ZnCore\Entity\Helpers;
 
 use ReflectionClass;
-use ZnCore\Base\Arr\Helpers\ArrayHelper;
-use ZnCore\Base\Instance\Helpers\ClassHelper;
+use ZnCore\Arr\Helpers\ArrayHelper;
+use ZnCore\Instance\Helpers\ClassHelper;
 use ZnCore\Text\Helpers\Inflector;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Collection\Libs\Collection;

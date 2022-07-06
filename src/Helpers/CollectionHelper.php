@@ -9,8 +9,8 @@ use Symfony\Component\Serializer\Serializer;
 use ZnCore\Collection\Interfaces\Enumerable;
 use ZnCore\Collection\Libs\Collection;
 use ZnCore\Entity\Factories\PropertyAccess;
-use ZnCore\Domain\Query\Entities\Query;
-use ZnCore\Domain\Query\Entities\Where;
+use ZnCore\Query\Entities\Query;
+use ZnCore\Query\Entities\Where;
 
 class CollectionHelper
 {
