@@ -4,8 +4,8 @@ namespace ZnCore\Entity\Subscribers;
 
 use App\News\Domain\Entities\CommentEntity;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use ZnCore\Domain\Domain\Enums\EventEnum;
-use ZnCore\Domain\Domain\Events\EntityEvent;
+use ZnCore\Domain\Enums\EventEnum;
+use ZnCore\Domain\Events\EntityEvent;
 
 /**
  * @todo: перенести в отдельный пакет
