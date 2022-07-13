@@ -4,11 +4,10 @@ namespace ZnCore\Entity\Helpers;
 
 use ReflectionClass;
 use ZnCore\Arr\Helpers\ArrayHelper;
+use ZnCore\Collection\Interfaces\Enumerable;
+use ZnCore\Entity\Factories\PropertyAccess;
 use ZnCore\Instance\Helpers\ClassHelper;
 use ZnCore\Text\Helpers\Inflector;
-use ZnCore\Collection\Interfaces\Enumerable;
-use ZnCore\Collection\Libs\Collection;
-use ZnCore\Entity\Factories\PropertyAccess;
 use ZnLib\Components\DynamicEntity\Interfaces\DynamicEntityAttributesInterface;
 
 class EntityHelper
